@@ -1,0 +1,57 @@
+<div class="hero-scene text-center mb-3">
+        <div class="hero-scene-content text-white">
+          <h1>Mon compte</h1>
+        </div>
+      </div>
+<div class="container mb-3" style="width: 600px;">
+      <h3 class="text-center">Mes informations</h3>
+  <form>
+        <div class="mb-3">
+                <label for="InputName"   class="form-label">Nom</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="InputName"
+                  placeholder="Votre nom"
+         />
+         <div class="mb-3">
+                <label for="InputFirstName"   class="form-label">Prénom</label>
+                <input
+                  type="text"
+                  class="form-control mb-3"
+                  id="InputFirstName"
+                  placeholder="Votre prénom"
+         />
+         <div class="text-center ">
+                <button type="submit" class="btn btn-primary mb-3">Modifier mes informations</button>
+         </div>
+        </form>
+        <h3 class="text-center">Vos réservations</h3>
+        <table class="table mb-3">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nom</th>
+                        <th>Date</th>
+                        <th>Heure</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Lignes de réservation ici -->
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>2022-01-01</td>
+                        <td>15:00</td>
+                        <td>
+                            <button class="btn btn-warning btn-sm mb-3">Modifier</button>
+                            <button class="btn btn-danger btn-sm mb-3">Supprimer</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="text-center ">
+                <button type="button" class="btn btn-danger mb-3">Supprimer mon compte</button>
+         </div>
+        </div>
